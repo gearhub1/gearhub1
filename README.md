@@ -1,4 +1,42 @@
-
+<svg width="120" height="120" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 0.5rem;">
+  <g transform="translate(100,100)">
+    <circle r="60" fill="#0052cc" stroke="#000" stroke-width="5"/>
+    <g>
+      <!-- Gear teeth -->
+      <g fill="#0052cc" stroke="#000" stroke-width="3">
+        <circle r="75" fill="none"/>
+        <g>
+          <!-- Draw 20 teeth -->
+          <g id="tooth">
+            <rect x="-5" y="-80" width="10" height="15" />
+          </g>
+          <use href="#tooth" transform="rotate(18)"/>
+          <use href="#tooth" transform="rotate(36)"/>
+          <use href="#tooth" transform="rotate(54)"/>
+          <use href="#tooth" transform="rotate(72)"/>
+          <use href="#tooth" transform="rotate(90)"/>
+          <use href="#tooth" transform="rotate(108)"/>
+          <use href="#tooth" transform="rotate(126)"/>
+          <use href="#tooth" transform="rotate(144)"/>
+          <use href="#tooth" transform="rotate(162)"/>
+          <use href="#tooth" transform="rotate(180)"/>
+          <use href="#tooth" transform="rotate(198)"/>
+          <use href="#tooth" transform="rotate(216)"/>
+          <use href="#tooth" transform="rotate(234)"/>
+          <use href="#tooth" transform="rotate(252)"/>
+          <use href="#tooth" transform="rotate(270)"/>
+          <use href="#tooth" transform="rotate(288)"/>
+          <use href="#tooth" transform="rotate(306)"/>
+          <use href="#tooth" transform="rotate(324)"/>
+          <use href="#tooth" transform="rotate(342)"/>
+        </g>
+      </g>
+    </g>
+    <!-- Garage name inside -->
+    <text x="0" y="5" text-anchor="middle" fill="white" font-size="14" font-family="Arial" font-weight="bold">GearHub</text>
+    <text x="0" y="25" text-anchor="middle" fill="white" font-size="10" font-family="Arial">Auto Services</text>
+  </g>
+</svg>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
